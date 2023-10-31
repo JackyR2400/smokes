@@ -11,6 +11,7 @@
 
 /* General styles */
 body {
+  border: 2%;
   min-height: 0;
   display: flex;
   flex-direction: column;
@@ -42,10 +43,6 @@ h1 {
 
 .mappick {
     margin: 2%;
-    max-width: 900px;
-    max-height: 800px;
-    outline: dashed 1px black;
-
     display: flex;
     justify-content: center;
 }
@@ -57,24 +54,10 @@ h1 {
     background-color: hsl(69, 89%, 63%);
 }
 
-
-
-/* Main Content */
-main {
-  background-color: rgb(214, 212, 212);
-  margin: 1vh 3vh;
-  max-width: 1000px;
+.mapsmoke {
+  height: 800px;
+  background-color: aqua;
 }
-
-main h3 {
-    letter-spacing: 1px;
-    text-decoration-line: underline;
-    font-size: 30px;
-    margin: 4% 4%;
-
-    
-}
-
 
 
 
